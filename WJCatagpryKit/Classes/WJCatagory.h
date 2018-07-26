@@ -1,5 +1,5 @@
 //
-//  test.h
+//  WJCatagory.h
 //  WJCatagpryKit
 //
 //  Created by Wu,Jie(EBDPRD) on 2018/7/26.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface test : NSObject
+@interface WJCatagory : NSObject
 
 @end

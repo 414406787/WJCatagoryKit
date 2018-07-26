@@ -1,13 +1,13 @@
 //
-//  test.m
+//  WJCatagory.m
 //  WJCatagpryKit
 //
 //  Created by Wu,Jie(EBDPRD) on 2018/7/26.
 //  Copyright © 2018年 Wu,Jie(EBDPRD). All rights reserved.
 //
 
-#import "test.h"
+#import "WJCatagory.h"
 
-@implementation test
+@implementation WJCatagory
 
 @end
