@@ -1,13 +1,13 @@
 //
-//  TestView.h
+//  test.h
 //  WJCatagpryKit
 //
 //  Created by Wu,Jie(EBDPRD) on 2018/7/26.
 //  Copyright © 2018年 Wu,Jie(EBDPRD). All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface TestView : UIView
+@interface test : NSObject
 
 @end

@@ -15,7 +15,7 @@
 		C5F87A1D2109703500F649EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F87A1C2109703500F649EF /* main.m */; };
 		C5F87A272109703500F649EF /* WJCatagpryKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F87A262109703500F649EF /* WJCatagpryKitTests.m */; };
 		C5F87A322109703600F649EF /* WJCatagpryKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F87A312109703600F649EF /* WJCatagpryKitUITests.m */; };
-		C5F87A422109708100F649EF /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F87A412109708100F649EF /* TestView.m */; };
+		C5F87A4621099C7C00F649EF /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F87A4521099C7C00F649EF /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		C5F87A2D2109703600F649EF /* WJCatagpryKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJCatagpryKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F87A312109703600F649EF /* WJCatagpryKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCatagpryKitUITests.m; sourceTree = "<group>"; };
 		C5F87A332109703600F649EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5F87A402109708100F649EF /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
-		C5F87A412109708100F649EF /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		C5F87A4421099C7C00F649EF /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		C5F87A4521099C7C00F649EF /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +139,8 @@
 		C5F87A3F2109705C00F649EF /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				C5F87A402109708100F649EF /* TestView.h */,
-				C5F87A412109708100F649EF /* TestView.m */,
+				C5F87A4421099C7C00F649EF /* test.h */,
+				C5F87A4521099C7C00F649EF /* test.m */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -278,8 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5F87A422109708100F649EF /* TestView.m in Sources */,
 				C5F87A122109703500F649EF /* ViewController.m in Sources */,
+				C5F87A4621099C7C00F649EF /* test.m in Sources */,
 				C5F87A1D2109703500F649EF /* main.m in Sources */,
 				C5F87A0F2109703500F649EF /* AppDelegate.m in Sources */,
 			);
@@ -447,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T22XVGFXD4;
 				INFOPLIST_FILE = WJCatagpryKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.WJCatagpryKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -461,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T22XVGFXD4;
 				INFOPLIST_FILE = WJCatagpryKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.WJCatagpryKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
