@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		354380C9AD8B04BF0E471671 /* libPods-WJCatagpryKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F34E760B25F3A3B626435F54 /* libPods-WJCatagpryKit.a */; };
 		C5F87A0F2109703500F649EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F87A0E2109703500F649EF /* AppDelegate.m */; };
 		C5F87A122109703500F649EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F87A112109703500F649EF /* ViewController.m */; };
 		C5F87A152109703500F649EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F87A132109703500F649EF /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98118AFE1E162CF9E5AE1F8A /* Pods-WJCatagpryKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJCatagpryKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-WJCatagpryKit/Pods-WJCatagpryKit.release.xcconfig"; sourceTree = "<group>"; };
 		C5F87A0A2109703500F649EF /* WJCatagpryKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJCatagpryKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F87A0D2109703500F649EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5F87A0E2109703500F649EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +56,8 @@
 		C5F87A332109703600F649EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5F87A4821099DAD00F649EF /* WJCatagory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCatagory.h; sourceTree = "<group>"; };
 		C5F87A4921099DAD00F649EF /* WJCatagory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCatagory.m; sourceTree = "<group>"; };
+		F34E760B25F3A3B626435F54 /* libPods-WJCatagpryKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJCatagpryKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76B1F0D80D1573773777F03 /* Pods-WJCatagpryKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJCatagpryKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WJCatagpryKit/Pods-WJCatagpryKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				354380C9AD8B04BF0E471671 /* libPods-WJCatagpryKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C1A145123F27D73F8E5516 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F76B1F0D80D1573773777F03 /* Pods-WJCatagpryKit.debug.xcconfig */,
+				98118AFE1E162CF9E5AE1F8A /* Pods-WJCatagpryKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73434C498FA56AB151D7B2E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F34E760B25F3A3B626435F54 /* libPods-WJCatagpryKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C5F87A012109703500F649EF = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +110,8 @@
 				C5F87A252109703500F649EF /* WJCatagpryKitTests */,
 				C5F87A302109703600F649EF /* WJCatagpryKitUITests */,
 				C5F87A0B2109703500F649EF /* Products */,
+				04C1A145123F27D73F8E5516 /* Pods */,
+				73434C498FA56AB151D7B2E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5F87A362109703600F649EF /* Build configuration list for PBXNativeTarget "WJCatagpryKit" */;
 			buildPhases = (
+				BDA456BB6C993218481BCEEB /* [CP] Check Pods Manifest.lock */,
 				C5F87A062109703500F649EF /* Sources */,
 				C5F87A072109703500F649EF /* Frameworks */,
 				C5F87A082109703500F649EF /* Resources */,
+				CA3E6DA260FB766DE2933B3D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,6 +298,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BDA456BB6C993218481BCEEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WJCatagpryKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA3E6DA260FB766DE2933B3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WJCatagpryKit/Pods-WJCatagpryKit-resources.sh",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-back.png",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-help.html",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-helpicons.png",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-samples.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-back.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-help.html",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-helpicons.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-samples.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WJCatagpryKit/Pods-WJCatagpryKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C5F87A062109703500F649EF /* Sources */ = {
@@ -442,6 +513,7 @@
 		};
 		C5F87A372109703600F649EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F76B1F0D80D1573773777F03 /* Pods-WJCatagpryKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,6 +529,7 @@
 		};
 		C5F87A382109703600F649EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98118AFE1E162CF9E5AE1F8A /* Pods-WJCatagpryKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
