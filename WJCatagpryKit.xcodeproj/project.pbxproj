@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		354380C9AD8B04BF0E471671 /* libPods-WJCatagpryKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F34E760B25F3A3B626435F54 /* libPods-WJCatagpryKit.a */; };
+		C547E9F521AFCFCA009B6DD8 /* NSArray+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = C547E9E721AFCFC9009B6DD8 /* NSArray+Crash.m */; };
+		C547E9F621AFCFCA009B6DD8 /* NSMutableDictionary+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = C547E9E921AFCFC9009B6DD8 /* NSMutableDictionary+Crash.m */; };
+		C547E9F721AFCFCA009B6DD8 /* NSMutableArray+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = C547E9EA21AFCFC9009B6DD8 /* NSMutableArray+Crash.m */; };
+		C547E9F821AFCFCA009B6DD8 /* NSObject+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = C547E9ED21AFCFC9009B6DD8 /* NSObject+Crash.m */; };
+		C547E9F921AFCFCA009B6DD8 /* NSString+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = C547E9EE21AFCFC9009B6DD8 /* NSString+Crash.m */; };
+		C547E9FA21AFCFCA009B6DD8 /* NSMutableString+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = C547E9F121AFCFCA009B6DD8 /* NSMutableString+Crash.m */; };
+		C547E9FB21AFCFCA009B6DD8 /* NSDictionary+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = C547E9F321AFCFCA009B6DD8 /* NSDictionary+Crash.m */; };
+		C547E9FC21AFCFCA009B6DD8 /* CrashMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = C547E9F421AFCFCA009B6DD8 /* CrashMonitor.m */; };
 		C5F87A0F2109703500F649EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F87A0E2109703500F649EF /* AppDelegate.m */; };
 		C5F87A122109703500F649EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F87A112109703500F649EF /* ViewController.m */; };
 		C5F87A152109703500F649EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F87A132109703500F649EF /* Main.storyboard */; };
@@ -16,7 +24,6 @@
 		C5F87A1D2109703500F649EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F87A1C2109703500F649EF /* main.m */; };
 		C5F87A272109703500F649EF /* WJCatagpryKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F87A262109703500F649EF /* WJCatagpryKitTests.m */; };
 		C5F87A322109703600F649EF /* WJCatagpryKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F87A312109703600F649EF /* WJCatagpryKitUITests.m */; };
-		C5F87A4A21099DAD00F649EF /* WJCatagory.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F87A4921099DAD00F649EF /* WJCatagory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,22 @@
 
 /* Begin PBXFileReference section */
 		98118AFE1E162CF9E5AE1F8A /* Pods-WJCatagpryKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJCatagpryKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-WJCatagpryKit/Pods-WJCatagpryKit.release.xcconfig"; sourceTree = "<group>"; };
+		C547E9E521AFCFC9009B6DD8 /* NSMutableArray+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Crash.h"; sourceTree = "<group>"; };
+		C547E9E621AFCFC9009B6DD8 /* NSMutableDictionary+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Crash.h"; sourceTree = "<group>"; };
+		C547E9E721AFCFC9009B6DD8 /* NSArray+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Crash.m"; sourceTree = "<group>"; };
+		C547E9E821AFCFC9009B6DD8 /* CrashMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashMonitor.h; sourceTree = "<group>"; };
+		C547E9E921AFCFC9009B6DD8 /* NSMutableDictionary+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Crash.m"; sourceTree = "<group>"; };
+		C547E9EA21AFCFC9009B6DD8 /* NSMutableArray+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Crash.m"; sourceTree = "<group>"; };
+		C547E9EB21AFCFC9009B6DD8 /* NSString+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Crash.h"; sourceTree = "<group>"; };
+		C547E9EC21AFCFC9009B6DD8 /* NSArray+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Crash.h"; sourceTree = "<group>"; };
+		C547E9ED21AFCFC9009B6DD8 /* NSObject+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Crash.m"; sourceTree = "<group>"; };
+		C547E9EE21AFCFC9009B6DD8 /* NSString+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Crash.m"; sourceTree = "<group>"; };
+		C547E9EF21AFCFC9009B6DD8 /* NSObject+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Crash.h"; sourceTree = "<group>"; };
+		C547E9F021AFCFCA009B6DD8 /* NSDictionary+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Crash.h"; sourceTree = "<group>"; };
+		C547E9F121AFCFCA009B6DD8 /* NSMutableString+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Crash.m"; sourceTree = "<group>"; };
+		C547E9F221AFCFCA009B6DD8 /* NSMutableString+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Crash.h"; sourceTree = "<group>"; };
+		C547E9F321AFCFCA009B6DD8 /* NSDictionary+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Crash.m"; sourceTree = "<group>"; };
+		C547E9F421AFCFCA009B6DD8 /* CrashMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashMonitor.m; sourceTree = "<group>"; };
 		C5F87A0A2109703500F649EF /* WJCatagpryKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJCatagpryKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F87A0D2109703500F649EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5F87A0E2109703500F649EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,8 +77,6 @@
 		C5F87A2D2109703600F649EF /* WJCatagpryKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJCatagpryKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F87A312109703600F649EF /* WJCatagpryKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCatagpryKitUITests.m; sourceTree = "<group>"; };
 		C5F87A332109703600F649EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5F87A4821099DAD00F649EF /* WJCatagory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCatagory.h; sourceTree = "<group>"; };
-		C5F87A4921099DAD00F649EF /* WJCatagory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCatagory.m; sourceTree = "<group>"; };
 		F34E760B25F3A3B626435F54 /* libPods-WJCatagpryKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJCatagpryKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76B1F0D80D1573773777F03 /* Pods-WJCatagpryKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJCatagpryKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WJCatagpryKit/Pods-WJCatagpryKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,8 +184,22 @@
 		C5F87A4721099D9400F649EF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C5F87A4821099DAD00F649EF /* WJCatagory.h */,
-				C5F87A4921099DAD00F649EF /* WJCatagory.m */,
+				C547E9E821AFCFC9009B6DD8 /* CrashMonitor.h */,
+				C547E9F421AFCFCA009B6DD8 /* CrashMonitor.m */,
+				C547E9EC21AFCFC9009B6DD8 /* NSArray+Crash.h */,
+				C547E9E721AFCFC9009B6DD8 /* NSArray+Crash.m */,
+				C547E9F021AFCFCA009B6DD8 /* NSDictionary+Crash.h */,
+				C547E9F321AFCFCA009B6DD8 /* NSDictionary+Crash.m */,
+				C547E9E521AFCFC9009B6DD8 /* NSMutableArray+Crash.h */,
+				C547E9EA21AFCFC9009B6DD8 /* NSMutableArray+Crash.m */,
+				C547E9E621AFCFC9009B6DD8 /* NSMutableDictionary+Crash.h */,
+				C547E9E921AFCFC9009B6DD8 /* NSMutableDictionary+Crash.m */,
+				C547E9F221AFCFCA009B6DD8 /* NSMutableString+Crash.h */,
+				C547E9F121AFCFCA009B6DD8 /* NSMutableString+Crash.m */,
+				C547E9EF21AFCFC9009B6DD8 /* NSObject+Crash.h */,
+				C547E9ED21AFCFC9009B6DD8 /* NSObject+Crash.m */,
+				C547E9EB21AFCFC9009B6DD8 /* NSString+Crash.h */,
+				C547E9EE21AFCFC9009B6DD8 /* NSString+Crash.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -349,10 +384,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C547E9FB21AFCFCA009B6DD8 /* NSDictionary+Crash.m in Sources */,
 				C5F87A122109703500F649EF /* ViewController.m in Sources */,
+				C547E9FC21AFCFCA009B6DD8 /* CrashMonitor.m in Sources */,
+				C547E9F721AFCFCA009B6DD8 /* NSMutableArray+Crash.m in Sources */,
 				C5F87A1D2109703500F649EF /* main.m in Sources */,
-				C5F87A4A21099DAD00F649EF /* WJCatagory.m in Sources */,
+				C547E9FA21AFCFCA009B6DD8 /* NSMutableString+Crash.m in Sources */,
+				C547E9F621AFCFCA009B6DD8 /* NSMutableDictionary+Crash.m in Sources */,
 				C5F87A0F2109703500F649EF /* AppDelegate.m in Sources */,
+				C547E9F521AFCFCA009B6DD8 /* NSArray+Crash.m in Sources */,
+				C547E9F921AFCFCA009B6DD8 /* NSString+Crash.m in Sources */,
+				C547E9F821AFCFCA009B6DD8 /* NSObject+Crash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
